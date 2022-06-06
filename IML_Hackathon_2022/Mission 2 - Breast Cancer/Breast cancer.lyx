@@ -1,0 +1,473 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+
+% Convert the Lyx colors into more pleasent colors:
+\usepackage{xcolor}
+\definecolor{blue}{RGB}{14,107,217}
+\definecolor{green}{RGB}{0,158,40}
+\definecolor{red}{RGB}{235,16,16}
+\definecolor{brown}{RGB}{164,66,0}
+\definecolor{orange}{RGB}{231,135,26}
+\definecolor{purple}{RGB}{94,53,177}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 3cm
+\headheight 0cm
+\headsep 0cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "20pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing double
+\align center
+
+\family roman
+\series bold
+\shape up
+\size huge
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $Breast\ Cancer\ data\ analysis$
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+Hackathom\ IML\ 2022
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\begin{align*}
+\\
+Gabi\ Albuo-316563949\\
+Omri\ Wolf-204867881\\
+Guy\ Jascourt-207090119\\
+Ronel\ Charedim-208917641
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename 944164cb-cb01-40be-b76d-df6405f40c9e.jpg
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Formula $Dataset\ descraption$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+קיבלנו מערך נתונים המכיל מידע על חולים בסרטן השד.
+ הנתונים כללו מידע על גיל החולים, קצב התפשטות הגידול, תגובת הגידול לחומרים
+ מסויימים, תאריכי ניתוחים ועוד.
+ 
+\end_layout
+
+\begin_layout Standard
+כשניגשנו לטפל בנתונים ראשית ניסינו להבין מה המידע שכל פיצ'ר מכיל, באיזה
+ טווח ערכים הוא מדורג, מה הוא מסמן ועוד.
+ לאחר שהבנו מה כל נתון מסמן וכיצד נוכל להפיק ממנו את המירב בכדי שהאלגוריתם
+ הלומד שלנו יוכל ללמוד בצורה מיטבית, התחלנו בניתוח הנתונים.
+\end_layout
+
+\begin_layout Standard
+המידע אותו היינו צריכים לנתח היה מסומן בצורה אידה אלא היה מלא בהבדלים גסים
+ דקים, נדהמנו מהעבודה עם דאטה אמיתי, וכמה הדאטה מגיע לא מסודר.
+ 
+\end_layout
+
+\begin_layout Standard
+האתגר הראשון בו נתקלנו היה ניתוח הפיצ'ר 
+\begin_inset Formula $KI67$
+\end_inset
+
+, שמסמן את קצב התפשטות הגידול.
+ עוד לפני שחקרנו עליו הערכנו כי הוא יהיה פיצ'ר חשוב ואכן לאחר מחקר גילינו
+ את חישובתו.
+ לכן החלטנו לנתח את הנתונים בצורה המיטבית, תחילה היה עלינו להבין באיזו סקאלה
+ ניתן לדרג את קצב התפשטות הגידול.
+ לאחר מכן היינו צריכים למפות את הסטרינגים שבהם המידע נתון לכדי מספרים עליה
+ נוכל להריץ אלגוריתם למידה.
+ חלק מהסטרינגים נכתבו בהיפוך בין עברית לאנגלית 
+\begin_inset Formula $\text{יבויח = jhuch }$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לאחר שהתקדמנו בפרוייקט הגענו לערך 
+\begin_inset Formula $f1\ score$
+\end_inset
+
+ גבוה במיוחד - 
+\begin_inset Formula $0.9$
+\end_inset
+
+, חשבנו שאכן מצאנו את המודל שפותר את הבעיה בתצורה הטובה ביותר, אלך לאחר
+ מעבד על הקוד ודיון הבנו כי מדדנו על דאטה בצורה שגויה, וכי ערכי ה 
+\begin_inset Formula $ID$
+\end_inset
+
+ של אותם החולים הופיעו בסט האימון וסט הטסט יחד.
+ תיקנו את הבעיה בכך שדאגנו שהחלוקה תהיה לחולים עם מספרי 
+\begin_inset Formula $ID$
+\end_inset
+
+ שונים.
+\end_layout
+
+\begin_layout Section
+\begin_inset Formula $Preprocessing$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+כתבנו מספר פונקציות 
+\begin_inset Formula $parse$
+\end_inset
+
+ שעיבדו את הנתונים וחילצו את המספרים הרלוונטים, לאחר מכן דירגנו אותם לרמה
+ הרצויה.
+\end_layout
+
+\begin_layout Standard
+פיצ'רים נוספים סימנו בעזרת 
+\begin_inset Formula $fectorize$
+\end_inset
+
+ שמתייגת כל קבוצה לתווית שונה.
+\end_layout
+
+\begin_layout Standard
+במהלך התהליך ייצרנו פיצ'רים חדשים, כדוגמת פיצ'ר המכיל מידע על ההפרש בין
+ הדיאגנוזה לניתוח הראשון.
+ 
+\end_layout
+
+\begin_layout Standard
+היינו צריכים להבין מה לעשות עם ערכים שהיו מסומנים ב 
+\begin_inset Formula $nan\backslash unknown$
+\end_inset
+
+, כיצד לתייג אותם ואיך להפיק מהם את המירב.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+קורולציה בין הפיצ'רים:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename edac6495-6848-4ba6-a67f-93694617a150.jpg
+	scale 30
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Section
+\begin_inset Formula $Learning\ systems\ design$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+לאחר שפירסרנו את הדאטה וניתחנו את הנתונים, ביצענו מספר בדיקות והרצות כדי
+ להבין איך הדאטה שלנו מתנהג.
+ 
+\end_layout
+
+\begin_layout Standard
+בדקנו מספר גישות וייצרנו גרף 
+\begin_inset Formula $PCA$
+\end_inset
+
+ בו ראינו כי הדאטה אינו לינארי, לכן החלטנו לבחור בפיתוח 
+\begin_inset Formula $baseline$
+\end_inset
+
+ של 
+\begin_inset Formula $Desition\ tree$
+\end_inset
+
+ במשימה הראשונה, במשימה השניה בחרנו להשתמש ב 
+\begin_inset Formula $Random\ forest$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ניסינו להריץ 
+\begin_inset Formula $\text{Random Forrest/Adaboost/Decision Tree/KNN/Radius Neighbours,Decision Tree}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+התוצאות שהשגנו עם שיטות אלו החזירו לנו 
+\begin_inset Formula $score$
+\end_inset
+
+ בטווח של 
+\begin_inset Formula $0.1-0.2$
+\end_inset
+
+.
+ מלבד 
+\begin_inset Formula $Desition\ tree$
+\end_inset
+
+ שהשיג תוצאה גבוה יותר לכן בחרנו להמשיך איתו.
+\end_layout
+
+\begin_layout Standard
+שיפרנו אותו בעזרת שיטת 
+\begin_inset Formula $Cross\ Validation$
+\end_inset
+
+ שמחלקת את הדאטה לקבוצות ומאמנת את המודל בכל פעם על מספר קבוצות שונות.
+ כך יכלנו למצוא את ה 
+\begin_inset Formula $hiper\ parameters$
+\end_inset
+
+ המתאימים.
+\end_layout
+
+\begin_layout Section
+\begin_inset Formula $Prediction\ of\ thegeneralization\ error$
+\end_inset
+
+: 
+\end_layout
+
+\end_body
+\end_document

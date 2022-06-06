@@ -1,0 +1,12 @@
+********************************** CODE FILES *********************************
+hackathon_preprocessing.py - preprocessing data.
+hackathon_model.py - contain the model
+hackathon_prediction.py - predict file, run and predict algorithm.
+
+********************************** OTHER FILES ********************************
+part1/predictions.csv – the prediction file for part 1.
+part2/prediction.csv - the prediction file for part 2.
+requirements.txt - the required packages for the virtual environment.
+README — YOU ARE HERE.
+USERS — contains the logins and IDs of all the team members.
+project.pdf – work description
